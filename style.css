@@ -11,6 +11,27 @@
         flex-direction: column;
     }
 
+    .header{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 30vw;
+        top :5%;
+        left: 35%;
+
+    }
+
+    .head{
+        color: white;
+    }
+
+    .item1{
+        background-color: #000;
+        color: white;
+        border-radius: 15px;
+    }
+
     .top-background {
         background-image: url('./background-image.png');
         height: 30vh;
